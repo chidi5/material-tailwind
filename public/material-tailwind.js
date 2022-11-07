@@ -68,7 +68,7 @@ if (document.querySelector('.timepicker')) {
         accordion[i].setAttribute("aria-expanded", "true");
         collapse.classList.add("open");
         accordion[i].classList.add("collapsed");
-        collapse.style.maxHeight = collapse.scrollHeight + "px";
+        collapse.style.maxHeight = "fit-content";
       } else {
         accordion[i].setAttribute("aria-expanded", "false");
         collapse.classList.remove("open");
